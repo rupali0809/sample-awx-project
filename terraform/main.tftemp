@@ -21,7 +21,7 @@ provider "google" {
 
 module "network" {
   source = "./network"
-  network_name = "lab4-vpc"
+  network_name = "lab5-vpc"
   region = "europe-west1"
   allowed_ports = ["22", "80", "8080", "8081"]
   ip_cidr_range = "10.0.0.0/24"
